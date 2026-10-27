@@ -1,0 +1,42 @@
+$ npm.cmd test -- --runInBand
+npm warn invalid config allow-git=true set in C:\Users\nguye\.npmrc
+npm warn invalid config Must be one of: all, none, root
+npm notice run ChatApplication@0.0.1 test
+npm notice run jest --runInBand
+PASS __tests__/ChatScreen.test.tsx
+PASS __tests__/App.test.tsx
+PASS __tests__/HomeScreen.test.tsx
+
+Test Suites: 3 passed, 3 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        3.998 s, estimated 11 s
+Ran all test suites.
+
+Exit code: 0
+
+$ npm.cmd run lint
+npm warn invalid config allow-git=true set in C:\Users\nguye\.npmrc
+npm warn invalid config Must be one of: all, none, root
+npm notice run ChatApplication@0.0.1 lint
+npm notice run eslint .
+
+Exit code: 0
+
+$ npx.cmd --no-install tsc --noEmit
+npm warn invalid config allow-git=true set in C:\Users\nguye\.npmrc
+npm warn invalid config Must be one of: all, none, root
+npm notice run ChatApplication@0.0.1 npx
+npm notice run tsc --noEmit
+
+Exit code: 0
+
+$ npx.cmd --no-install prettier --check App.tsx src __tests__/HomeScreen.test.tsx __tests__/ChatScreen.test.tsx jest.config.js jest.setup.js
+npm warn invalid config allow-git=true set in C:\Users\nguye\.npmrc
+npm warn invalid config Must be one of: all, none, root
+npm notice run ChatApplication@0.0.1 npx
+npm notice run prettier --check App.tsx src __tests__/HomeScreen.test.tsx __tests__/ChatScreen.test.tsx jest.config.js jest.setup.js
+Checking formatting...
+All matched files use Prettier code style!
+
+Exit code: 0

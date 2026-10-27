@@ -1,0 +1,42 @@
+$ npm test
+npm warn invalid config allow-git=true set in C:\Users\nguye\.npmrc
+npm warn invalid config Must be one of: all, none, root
+npm notice run chat-server@1.0.0 test
+npm notice run node --test
+✔ health endpoint responds (55.2122ms)
+nguyendinhthien joined the group.
+User Two joined the group.
+User Three joined the group.
+nguyendinhthien left the group.
+User Two left the group.
+User Three left the group.
+✔ broadcasts one identical message to the sender and two simultaneous peers (44.446ms)
+nguyendinhthien joined the group.
+nguyendinhthien left the group.
+✔ rejects blank, malformed and overlong names (8.6136ms)
+✔ rejects messages before joining (6.3868ms)
+nguyendinhthien joined the group.
+nguyendinhthien left the group.
+✔ does not broadcast blank, malformed or overlong messages (8.8938ms)
+nguyendinhthien joined the group.
+nguyendinhthien joined the group.
+nguyendinhthien left the group.
+nguyendinhthien left the group.
+✔ two users with the same display name have distinct sender IDs (9.6338ms)
+nguyendinhthien joined the group.
+User Two joined the group.
+nguyendinhthien left the group.
+nguyendinhthien joined the group.
+User Two left the group.
+nguyendinhthien left the group.
+✔ a returning client can reconnect, rejoin and send again (15.8002ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 495.8602
+
+Exit code: 0
